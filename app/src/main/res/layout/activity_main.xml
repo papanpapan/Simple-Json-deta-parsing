@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samim.json_volly.MainActivity">
+
+
+        <TextView
+            android:id="@+id/text_view_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/image_view_result0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/image_view_result2"
+            android:layout_alignStart="@+id/image_view_result2" />
+        <ImageView
+            android:id="@+id/image_view_result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/image_view_result2"
+            android:layout_alignLeft="@+id/image_view_result2"
+            android:layout_alignStart="@+id/image_view_result2" />
+        <ImageView
+            android:id="@+id/image_view_result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/image_view_result0"
+            android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
